@@ -6,23 +6,23 @@
     font-style: normal;
   }
   
-  .lato-bold {
+.lato-bold {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
-  
-  .lato-regular-italic {
+}
+
+.lato-regular-italic {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: italic;
-  }
+}
   
-  .lato-bold-italic {
+.lato-bold-italic {
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: italic;
-  }
+}
 
 @font-face {
     font-family: Raleway;
@@ -47,4 +47,10 @@
     src: url(../fonts/Raleway-BoldItalic.ttf);
     font-weight: bold,Italic;
 }
-  
+
+body {
+   text-align: center;
+  width: 1160px;
+  margin: auto;
+}
+ 
