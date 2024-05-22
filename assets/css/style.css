@@ -145,3 +145,25 @@ a:hover {
 .cv__formations-name {
     font-weight: bold;
 }
+
+.cv__footer {
+    background-color: #782221;
+    color: #ffffff;
+}
+
+.cv__social-link img {
+    width: 40px;
+    height: 40px; 
+}
+
+.cv__social-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 500px; 
+}
+
+.cv_footer-time {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
