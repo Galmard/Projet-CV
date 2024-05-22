@@ -9,7 +9,7 @@
 .lato-bold {
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    font-style: bold;
+    font-weight: bold;
 }
 
 .lato-regular-italic {
@@ -27,19 +27,13 @@
 @font-face {
     font-family: Raleway;
     src: url(../fonts/Raleway-Italic.ttf);
-    font-weight: italic;
+    font-style: italic;
 }
 
 @font-face {
     font-family: Raleway;
     src: url(../fonts/Raleway-Bold.ttf);
     font-weight: bold;
-}
-
-@font-face {
-    font-family: Raleway;
-    src: url(../fonts/Raleway-BoldItalic.ttf);
-    font-weight: bold,Italic;
 }
 
 body {
@@ -103,4 +97,34 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.cv__main {
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.cv__sidebar {
+    padding-right: 40px;
+    width: 27%;
+    background-color: #782221;
+    color: #ffffff;
+}
+
+.cv__article-title {
+    font-family: 'Lato';
+    background-color: #dbc2a4;
+    color: #000000;
+    padding: 5px 20px;
+}
+
+.cv__about-text {
+    text-indent: 2em;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.cv__article {
+    padding-bottom: 10px;
 }
