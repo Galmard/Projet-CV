@@ -16,7 +16,8 @@
     <div class="cv">
         <header>
             <div class="cv__profile">
-                <a href="./assets/img/Moi.jpg" target="_blank"><img src="./assets/img/Moi.jpg" alt="Cédric Heron" class="cv__photo"></a>
+                <a href="./assets/img/Moi.jpg" target="_blank"><img src="./assets/img/Moi.jpg" alt="Cédric Heron"
+                        class="cv__photo"></a>
                 <h1 class="cv__name">CEDRIC HERON</h1>
                 <h2 class="cv__job">Développeur web junior</h2>
             </div>
@@ -27,25 +28,27 @@
                 <p class="cv__contact3"><a href="tel:0610111213">0610111213</a></p>
             </address>
         </header>
-        <main>
-            <aside>
-                <article>
-                    <h3>A propos</h3>
-                    <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Praescent vestibulum a ligula in
-                        pharetra. Pellentesque viverra semper nibh ut eleifend. In id est magna. Nunc ultrices nisi id
-                        sem mollis, sed sagittis lorem pellentesque. Fusce vitae malesuada ex. Quisque scelerisque risus
-                        turpis, vitae vulputate sapien aliquet quis.</p>
+        <main class="cv__main">
+            <aside class="cv__sidebar">
+                <article class="cv__article cv__article--about">
+                    <h3 class="cv__article-title">A propos</h3>
+                    <p class="cv__about-text">Après avoir travaillé en laboratoire dans le domaine de l'amiante pendant
+                        plusieurs années, j'ai été dans l'obligation d'arréter pour raisons médicales. Malgré cela, ces
+                        dites années m'ont appris le travail d'équipe ainsi qu'un goût pour le travail minutieux, pour
+                        lequel une appétence m'étais déjà apparue pendant mes études. Cependant en rétrospective de ces
+                        années j'ai décidé de me reconvertir vers un domaine qui m'a toujours intéréssé et intrigué. Me
+                        voici donc ici proposant ma candidature et mes services pour ce poste</p>
                 </article>
-                <article>
-                    <h3>Langue parlées</h3>
-                    <ul>
+                <article class="cv__article cv__article--languages">
+                    <h3 class="cv__article-title">Langue parlées</h3>
+                    <ul class="cv__list">
                         <li>Français - Langue maternelle</li>
-                        <li>Anglais - C1</li>
+                        <li>Anglais - Courant</li>
                     </ul>
                 </article>
-                <article>
-                    <h3>Centres d'interêt</h3>
-                    <ul>
+                <article class="cv__article cv__article--interests">
+                    <h3 class="cv__article-title">Centres d'interêt</h3>
+                    <ul class="cv__list">
                         <li>Nouvelles technologies - Science en générale</li>
                         <li>Informatique</li>
                         <li>Jeux vidéos</li>
@@ -53,49 +56,67 @@
                     </ul>
                 </article>
             </aside>
-            <section>
-                <article>
-                    <h3>Expériences professionnelles</h3>
-                    <p>Intitulé du poste chez nom de l'entreprise</p>
-                    <p>Du XXX au XXX</p>
+            <section class="cv__section">
+                <article class="cv__article cv__article--experiences">
+                    <h3 class="cv__article-title cv__article-title--section">Expériences professionnelles</h3>
+                    <div class="cv__experiences-list">
+                    <p class="cv__experiences-name">Technicien de laboratoire chez Euro Services Lab</p>
+                    <p>De 11/2016 au 09/2018</p>
                     <ul>
-                        <li>Mission 1</li>
-                        <li>Mission 2</li>
-                        <li>Mission 3</li>
+                        <li>Analyse MOLP</li>
+                        <li>Identification de matériaux amiantés</li>
+                        <li>Préparation de matériaux amiantés</li>
+                        <li>Métrologie des appareils</li>
                     </ul>
-                    <h3>Expériences professionnelles</h3>
-                    <p>Intitulé du poste chez nom de l'entreprise</p>
-                    <p>Du XXX au XXX</p>
+                    </div>
+                    <div class="cv__experiences-list">
+                    <p class="cv__experiences-name">Technicien de laboratoire chez Biogoujard</p>
+                    <p>De 04/2015 au 10/2016</p>
                     <ul>
-                        <li>Mission 1</li>
-                        <li>Mission 2</li>
-                        <li>Mission 3</li>
+                        <li>Analyse MOLP</li>
+                        <li>Préparation de matériaux amiantés</li>
+                        <li>préparation d'échantillons d'air</li>
+                        <li>Métrologie des appareils</li>
                     </ul>
-                    <h3>Expériences professionnelles</h3>
-                    <p>Intitulé du poste chez nom de l'entreprise</p>
-                    <p>Du XXX au XXX</p>
+                    </div>
+                    <div class="cv__experiences-list">
+                    <p class="cv__experiences-name">Technicien de laboratoire chez Eurofins Ascal Bâtiment</p>
+                    <p>De 02/2013 au 09/2014</p>
                     <ul>
-                        <li>Mission 1</li>
-                        <li>Mission 2</li>
-                        <li>Mission 3</li>
+                        <li>Analyse MOLP</li>
+                        <li>Préparation de matériaux amiantés</li>
+                        <li>Encodage des échantillons</li>
                     </ul>
+                    </div>
                 </article>
-                <article>
-                    <h3>Diplômes/Formations</h3>
-                    <p>Diplôme/Formation n°1</p>
-                    <p>Du XXX au XXX</p>
-                    <p>Nom de l'école</p>
-                    <p>Diplôme/Formation n°2</p>
-                    <p>Du XXX au XXX</p>
-                    <p>Nom de l'école</p>
+                <article class="cv__article cv__article--formations">
+                    <h3 class="cv__article-title cv__article-title--section">Diplômes/Formations</h3>
+                    <div class="cv__formations-list">
+                    <p class="cv__formations-name">Développeur Web</p>
+                    <p>De 04/2024 à Maintenant</p>
+                    <p>Centre Européen de</p>
+                    </div>
+                    <div class="cv__formations-list">
+                    <p class="cv__formations-name">BTS Bioanalyse et Contrôles</p>
+                    <p>De 2010 à 2012</p>
+                    <p>Ecole Technique Supérieure de Laboratoire</p>
+                    </div>
+                    <div class="cv__formations-list">
+                    <p class="cv__formations-name">Bac STL CLPI</p>
+                    <p>De 2006 à 2008</p>
+                    <p>Lycée Paul Langevin</p>
+                    </div>
                 </article>
-                <article>
-                    <h3>Compétences</h3>
+                <article class="cv__article cv__article--skills">
+                    <h3 class="cv__article-title cv__article-title--section">Compétences</h3>
+                    <div class="cv__skills-list">
                     <ul>
-                        <li>HTML 5-Débutant</li>
-                        <li>CSS 3-Débutant</li>
-                        <li>GitHub-Débutant</li>
+                        <li>HTML 5 - Débutant</li>
+                        <li>CSS 3 - Débutant</li>
+                        <li>GitHub - Débutant</li>
+                        <li>Office - Intermédiaire</li>
                     </ul>
+                </div>
                 </article>
             </section>
         </main>

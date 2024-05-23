@@ -8,8 +8,7 @@
   
 .lato-bold {
     font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: bold;
+    font-weight: 700 bold;
 }
 
 .lato-regular-italic {
@@ -27,7 +26,7 @@
 @font-face {
     font-family: Raleway;
     src: url(../fonts/Raleway-Italic.ttf);
-    font-weight: italic;
+    font-style: italic;
 }
 
 @font-face {
@@ -36,17 +35,12 @@
     font-weight: bold;
 }
 
-@font-face {
-    font-family: Raleway;
-    src: url(../fonts/Raleway-BoldItalic.ttf);
-    font-weight: bold,Italic;
-}
-
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     background-color: #ffffff;
     color: #000000;
+    font-size: 1em;
 }
 
 .cv {
@@ -108,4 +102,55 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.cv__main {
+    display: flex;
+    flex-direction: row;
+}
+
+.cv__sidebar {
+    padding-right: 40px;
+    width: 29%;
+    background-color: #782221;
+    color: #ffffff;
+}
+
+.cv__article-title {
+    font-family: 'Lato';
+    background-color: #dbc2a4;
+    color: #000000;
+    padding: 5px 20px;
+}
+
+.cv__about-text {
+    text-indent: 2em;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.cv__article {
+    padding-bottom: 10px;
+}
+
+.cv__section {
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 71%
+}
+
+.cv__article-title--section {
+    border-left: #782221 solid 8px;
+}
+
+.cv__experiences-name {
+    font-weight: bold;
+}
+
+.cv__formations-name {
+    font-weight: bold;
+}
+
+.cv__experiences-list:hover, .cv__formations-list:hover, .cv__skills-list:hover {
+    border-right: 8px solid #782221;
 }
