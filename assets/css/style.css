@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1em;
+}
+
+.cv {
+    max-width: 1160px;
+    margin: 0 auto;
+    border-right: 3px solid #000000;
+}
+
+.cv__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: #782221;
+    color: #ffffff
+}
+
+.cv__photo {
+    border-radius: 50%;
+    box-shadow: 0 0 20px #8B360E;
+    width: 10em;
+    height: auto;
+    cursor: zoom-in;
+}
+
+.cv__name {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.cv__job {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+.cv__contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c1d27;
+    padding: 15px 40px;
+}
+
+.cv__contact1 {
+    width: 185px;
+}
+
+.cv__contact3 {
+    width: 185px;
+    text-align: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cv__main {
+    display: flex;
+    flex-direction: row;
+}
+
+.cv__sidebar {
+    padding-right: 40px;
+    width: 29%;
+    background-color: #782221;
+    color: #ffffff;
+}
+
+.cv__article-title {
+    font-family: 'Lato';
+    background-color: #dbc2a4;
+    color: #000000;
+    padding: 5px 20px;
+}
+
+.cv__about-text {
+    text-indent: 2em;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.cv__article {
+    padding-bottom: 10px;
+}
+
+.cv__section {
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 71%
+}
+
+.cv__article-title--section {
+    border-left: #782221 solid 8px;
+}
+
+.cv__experiences-name {
+    font-weight: bold;
+}
+
+.cv__formations-name {
+    font-weight: bold;
+}
+
+.cv__experiences-list:hover, .cv__formations-list:hover, .cv__skills-list:hover {
+    border-right: 8px solid #782221;
+}
+
+.cv__footer {
+    background-color: #782221;
+    color: #ffffff;
+}
+
+.cv__social-link img {
+    width: 40px;
+    height: 40px; 
+}
+
+.cv__social-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 500px; 
+}
+
+.cv_footer-time {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+
+.cv__social-link1:hover, .cv__social-link2:hover, .cv__social-link3:hover {
+    opacity: 0.5;
+}
