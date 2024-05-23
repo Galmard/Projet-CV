@@ -167,3 +167,7 @@ a:hover {
     text-align: center;
     padding: 0px 0px 20px 0px;
 }
+
+.cv__social-link1:hover, .cv__social-link2:hover, .cv__social-link3:hover {
+    opacity: 0.5;
+}
