@@ -145,3 +145,7 @@ a:hover {
 .cv__formations-name {
     font-weight: bold;
 }
+
+.cv__experiences-list:hover, .cv__formations-list:hover, .cv__skills-list:hover {
+    border-right: 8px solid #782221;
+}
