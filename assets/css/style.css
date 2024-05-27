@@ -68,14 +68,15 @@ body {
 }
 
 .cv__name {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
+    font-size: 2.5em;
     text-transform: uppercase;
 }
 
 .cv__job {
     font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .cv__contact {
@@ -117,7 +118,7 @@ a:hover {
     color: #ffffff;
 }
 
-.cv__article-title {
+.cv__div-title {
     font-family: 'Lato';
     background-color: #dbc2a4;
     color: #000000;
@@ -130,7 +131,7 @@ a:hover {
     padding-left: 20px;
 }
 
-.cv__article {
+.cv__div {
     padding-bottom: 10px;
 }
 
@@ -140,7 +141,7 @@ a:hover {
     width: 71%
 }
 
-.cv__article-title--section {
+.cv__div-title--section {
     border-left: #782221 solid 8px;
 }
 
